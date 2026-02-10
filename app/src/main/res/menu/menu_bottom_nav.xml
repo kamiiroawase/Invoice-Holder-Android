@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigationShouye"
+        android:icon="@drawable/ic_menu_shouye"
+        android:title="@string/shouye" />
+    <item
+        android:id="@+id/navigationPiaojia"
+        android:icon="@drawable/ic_menu_piaojia"
+        android:title="@string/piaojia" />
+    <item
+        android:id="@+id/navigationTaitou"
+        android:icon="@drawable/ic_menu_taitou"
+        android:title="@string/taitou" />
+    <item
+        android:id="@+id/navigationWode"
+        android:icon="@drawable/ic_menu_wode"
+        android:title="@string/wode" />
+</menu>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Invoice Holder</string>
+
+    <string name="zaianyicituichuyingyong">Press back again to exit</string>
+
+    <string name="yonghuxieyi">User Agreement</string>
+    <string name="yinsixieyi">Privacy Policy</string>
+    <string name="yijianfankui">Feedback</string>
+    <string name="dangqianbanben">Version V%1$s</string>
+
+    <string name="lianxifangshi">E-mail</string>
+    <string name="lianxifangshi2">Enter a valid E-mail</string>
+    <string name="qingshurushoujihao">Please enter your E-mail</string>
+    <string name="fankuiyijian">Feedback</string>
+    <string name="fankuiyijian2">Please enter your feedback</string>
+    <string name="fankuiyijian3">Please enter your feedback</string>
+    <string name="lijitijiao">Submit</string>
+    <string name="tijiaochenggong">Successful</string>
+
+    <string name="shouye">Home</string>
+    <string name="piaojia">Holder</string>
+    <string name="taitou">Header</string>
+    <string name="wode">Me</string>
+    <string name="web">Web</string>
+
+    <string name="cunchuquanxianbeijujue">Storage permission required</string>
+    <string name="xiangjiquanxianbeijujue">Camera permission required</string>
+
+    <string name="tupianshibie">Image Recognition</string>
+    <string name="wenjianshibie">File Recognition</string>
+    <string name="paizhaoshibie">Scan Recognition</string>
+    <string name="tianjiataitou">Add Header</string>
+    <string name="bianjitaitou">Edit Header</string>
+    <string name="bianjifapiao">Edit Invoice</string>
+    <string name="fapiaoxiangqing">Invoice Detail</string>
+
+    <string name="chulizhong">Handling…</string>
+    <string name="fuzhichenggong">Copied</string>
+    <string name="fapiaoshibieshibai">Invoice recognition failed</string>
+    <string name="daochutupianshibai">Failed to export image</string>
+    <string name="tupianyidaochuzhixiangce">Photo saved to Gallery</string>
+
+    <string name="fanhui">Back</string>
+    <string name="shanchu">Delete</string>
+    <string name="tianjia">Add</string>
+    <string name="bianji">Edit</string>
+    <string name="genggai">Update</string>
+    <string name="queding">Confirm</string>
+    <string name="quxiao">Cancel</string>
+    <string name="daochutupian">Export Photo</string>
+
+    <string name="shanchufapiao">Delete Invoice</string>
+    <string name="shanchutaitou">Delete Header</string>
+    <string name="quedingyaoshanchufapiaoma">Are you sure you want to delete this invoice?</string>
+    <string name="quedingyaoshanchutaitouma">Are you sure you want to delete this header?</string>
+
+    <string name="geren">Personal</string>
+    <string name="qiye">Enterprise</string>
+</resources>

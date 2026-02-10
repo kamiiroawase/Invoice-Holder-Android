@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">发票夹</string>
+
+    <string name="zaianyicituichuyingyong">再按一次退出应用</string>
+
+    <string name="yonghuxieyi">用户协议</string>
+    <string name="yinsixieyi">隐私协议</string>
+    <string name="yijianfankui">意见反馈</string>
+    <string name="dangqianbanben">当前版本 V%1$s</string>
+
+    <string name="lianxifangshi">联系方式</string>
+    <string name="lianxifangshi2">输入正确手机号</string>
+    <string name="qingshurushoujihao">请输入手机号</string>
+    <string name="fankuiyijian">反馈意见</string>
+    <string name="fankuiyijian2">请输入您要反馈的内容</string>
+    <string name="fankuiyijian3">请输入您要反馈的内容</string>
+    <string name="lijitijiao">立即提交</string>
+    <string name="tijiaochenggong">提交成功</string>
+
+    <string name="shouye">首页</string>
+    <string name="piaojia">票夹</string>
+    <string name="taitou">抬头</string>
+    <string name="wode">我的</string>
+    <string name="web">Web</string>
+
+    <string name="cunchuquanxianbeijujue">存储权限被拒绝</string>
+    <string name="xiangjiquanxianbeijujue">相机权限被拒绝</string>
+
+    <string name="tupianshibie">图片识别</string>
+    <string name="wenjianshibie">文件识别</string>
+    <string name="paizhaoshibie">拍照识别</string>
+    <string name="tianjiataitou">添加抬头</string>
+    <string name="bianjitaitou">编辑抬头</string>
+    <string name="bianjifapiao">编辑发票</string>
+    <string name="fapiaoxiangqing">发票详情</string>
+
+    <string name="chulizhong">处理中…</string>
+    <string name="fuzhichenggong">复制成功</string>
+    <string name="fapiaoshibieshibai">发票识别失败</string>
+    <string name="daochutupianshibai">导出图片失败</string>
+    <string name="tupianyidaochuzhixiangce">图片已导出至相册</string>
+
+    <string name="fanhui">返回</string>
+    <string name="shanchu">删除</string>
+    <string name="tianjia">添加</string>
+    <string name="bianji">编辑</string>
+    <string name="genggai">更改</string>
+    <string name="queding">确定</string>
+    <string name="quxiao">取消</string>
+    <string name="daochutupian">导出图片</string>
+
+    <string name="shanchufapiao">删除发票</string>
+    <string name="shanchutaitou">删除抬头</string>
+    <string name="quedingyaoshanchufapiaoma">确定要删除发票吗？</string>
+    <string name="quedingyaoshanchutaitouma">确定要删除抬头吗？</string>
+
+    <string name="geren">个人</string>
+    <string name="qiye">企业</string>
+</resources>
