@@ -32,7 +32,7 @@ class MainActivity : BaseActivity() {
     companion object {
         private var lastBackPressTimestamp = 0L
         private const val EXIT_CONFIRM_INTERVAL = 2000L
-        private const val STATE_CURRENT_NAV_ITEM_ID = "CURRENT_ITEM_ID"
+        private const val STATE_CURRENT_NAV_ITEM_ID = "CURRENT_NAV_ITEM_ID"
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -72,11 +72,17 @@ class MainActivity : BaseActivity() {
 
         supportFragmentManager.beginTransaction().apply {
             navFragments.forEach { _, fragment ->
+                setMaxLifecycle(fragment, Lifecycle.State.STARTED)
                 hide(fragment)
             }
 
-            show(getFragmentByNavId(currentNavItemId))
+            commitNow()
+        }
 
+        supportFragmentManager.beginTransaction().apply {
+            val fragment = getFragmentByNavId(currentNavItemId)
+            setMaxLifecycle(fragment, Lifecycle.State.RESUMED)
+            show(fragment)
             commitNow()
         }
 
@@ -155,8 +161,16 @@ class MainActivity : BaseActivity() {
     private fun switchNavFragment(itemId: Int) {
         if (currentNavItemId != itemId) {
             supportFragmentManager.beginTransaction().apply {
-                hide(getFragmentByNavId(currentNavItemId))
-                show(getFragmentByNavId(itemId))
+                val fragment = getFragmentByNavId(currentNavItemId)
+                setMaxLifecycle(fragment, Lifecycle.State.STARTED)
+                hide(fragment)
+                commitNow()
+            }
+
+            supportFragmentManager.beginTransaction().apply {
+                val fragment = getFragmentByNavId(itemId)
+                setMaxLifecycle(fragment, Lifecycle.State.RESUMED)
+                show(fragment)
                 commitNow()
             }
 
