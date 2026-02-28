@@ -9,6 +9,9 @@
         <item name="android:textColor">#000000</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">sans-serif</item>
+
+        <item name="radioButtonStyle">@style/MyRadioStyle</item>
+        <item name="android:textCursorDrawable">@drawable/my_edit_text_cursor_color</item>
     </style>
 
     <style name="BottomNavTextActive" parent="TextAppearance.MaterialComponents.Caption">

@@ -10,7 +10,8 @@ class WebActivity : BaseActivity() {
     private lateinit var binding: ActivityWebBinding
 
     companion object {
-        const val EXTRA_URL = "url"
+        const val EXTRA_URL = "EXTRA_URL"
+        const val EXTRA_NANE = "EXTRA_NANE"
         private const val DEFAULT_URL = "https://www.irs.gov/"
     }
 
@@ -21,7 +22,9 @@ class WebActivity : BaseActivity() {
         setContentView(binding.root)
 
         setupWebView()
+
         setupRefreshListener()
+
         loadUrl()
     }
 
@@ -59,6 +62,12 @@ class WebActivity : BaseActivity() {
 
     private fun loadUrl() {
         val url = intent.getStringExtra(EXTRA_URL)
+        val title = intent.getStringExtra(EXTRA_NANE)
+
         binding.webView.loadUrl(url ?: DEFAULT_URL)
+
+        if (title != null) {
+            binding.headerTitle.text = title
+        }
     }
 }

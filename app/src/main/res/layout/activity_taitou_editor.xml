@@ -98,7 +98,7 @@
                         android:layout_weight="1"
                         android:orientation="horizontal">
 
-                        <RadioButton
+                        <com.google.android.material.radiobutton.MaterialRadioButton
                             android:id="@+id/taitouTypeQiye"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
                             android:textSize="14sp"
                             tools:ignore="HardcodedText" />
 
-                        <RadioButton
+                        <com.google.android.material.radiobutton.MaterialRadioButton
                             android:id="@+id/taitouTypeGeren"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -137,6 +137,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:autofillHints="@null"
+                        android:backgroundTint="@color/projectPrimaryColor"
                         android:hint="@null"
                         android:inputType="text"
                         android:labelFor="@null"
@@ -170,6 +171,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:autofillHints="@null"
+                            android:backgroundTint="@color/projectPrimaryColor"
                             android:hint="@null"
                             android:inputType="text"
                             android:labelFor="@null"
@@ -197,6 +199,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:autofillHints="@null"
+                            android:backgroundTint="@color/projectPrimaryColor"
                             android:hint="@null"
                             android:inputType="text"
                             android:labelFor="@null"
@@ -224,6 +227,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:autofillHints="@null"
+                            android:backgroundTint="@color/projectPrimaryColor"
                             android:hint="@null"
                             android:inputType="text"
                             android:labelFor="@null"
@@ -251,6 +255,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:autofillHints="@null"
+                            android:backgroundTint="@color/projectPrimaryColor"
                             android:hint="@null"
                             android:inputType="text"
                             android:labelFor="@null"
@@ -278,6 +283,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:autofillHints="@null"
+                            android:backgroundTint="@color/projectPrimaryColor"
                             android:hint="@null"
                             android:inputType="text"
                             android:labelFor="@null"

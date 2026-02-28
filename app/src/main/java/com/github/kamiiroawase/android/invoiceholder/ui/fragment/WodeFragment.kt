@@ -40,11 +40,17 @@ class WodeFragment : BaseFragment() {
 
     private fun setupClickListener() {
         binding.buttonYonghuxieyi.setOnClickListener {
-            startActivity(Intent(requireContext(), WebActivity::class.java))
+            startActivity(Intent(activity, WebActivity::class.java).apply {
+                putExtra(WebActivity.EXTRA_NANE, getString(R.string.yonghuxieyi))
+                putExtra(WebActivity.EXTRA_URL, "https://www.irs.gov/")
+            })
         }
 
         binding.buttonYinsixieyi.setOnClickListener {
-            startActivity(Intent(requireContext(), WebActivity::class.java))
+            startActivity(Intent(activity, WebActivity::class.java).apply {
+                putExtra(WebActivity.EXTRA_NANE, getString(R.string.yinsixieyi))
+                putExtra(WebActivity.EXTRA_URL, "https://www.irs.gov/")
+            })
         }
 
         binding.buttonYijianfankui.setOnClickListener {
